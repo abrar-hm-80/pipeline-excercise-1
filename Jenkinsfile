@@ -26,7 +26,7 @@ fi'''
       steps {
         sh '''for i in $(cat /tmp/jenkins)
 do
-ls -i $i
+ls -l $i
 done
 '''
       }
